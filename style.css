@@ -31,16 +31,20 @@ html body {
     grid-template-rows: 1fr 1fr;
     justify-items: stretch;
     box-sizing: border-box;
+    padding-left: 20px;
+    
 }
 .user-icon {
-    /* justify-self: center; */
+    justify-self: start;
     place-self: center-stretch;
+}
+.bell {
+    justify-self: start;
 }
 .user-info {
     place-self: center-stretch;
     
 }
-
 
 .sidebar {
     grid-column: 1;
@@ -157,7 +161,7 @@ p {
 }
 
 input {
-    width: 500px;
+    width: 400px;
     height: 30px;
     border-radius: 10px;
     border: 1px solid grey;
@@ -178,11 +182,18 @@ button {
     background-color: #4d4dff;
     border-radius: 10px;
     width: 100px;
-    padding: 2px;
+    padding: 4px;
     border: 2px solid #4d4dff;
     grid-column: 2;
-    justify-content: end;
-    align-content: end;
+    justify-self: center;
+    align-self: center; 
+}
+#buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 8px;
+    padding-right: 20px;
 }
 
 .turtle-icon {
@@ -194,6 +205,11 @@ button {
     width: 250px;
     height: 250px;
 }
+
+svg {
+    overflow: visible;
+}
+
 
 
 /* .dashboard {
