@@ -22,7 +22,7 @@ html body {
 .header {
     grid-column: 2/4;
     border-bottom: 1px solid grey;  
-    padding: 8px;
+    padding: 20px;
 
 }
 .header {
@@ -33,13 +33,17 @@ html body {
     box-sizing: border-box;
     padding-left: 20px;
     
+    
 }
 .user-icon {
     justify-self: start;
     place-self: center-stretch;
+    display: grid;
+    grid-template-columns: 50px 50px;
 }
 .bell {
-    justify-self: start;
+    justify-content: start;
+    
 }
 .user-info {
     place-self: center-stretch;
@@ -163,7 +167,7 @@ p {
 input {
     width: 400px;
     height: 30px;
-    border-radius: 10px;
+    border-radius: 14px;
     border: 1px solid grey;
     background-color: #e6e6ff;
 }
@@ -194,6 +198,7 @@ button {
     align-items: flex-start;
     gap: 8px;
     padding-right: 20px;
+    
 }
 
 .turtle-icon {
