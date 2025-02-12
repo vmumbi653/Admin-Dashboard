@@ -1,1 +1,2 @@
 # Admin-Dashboard
+This project requires building an admin dashboard design, utilizing CSS Grid for the layout of the webpage. It was a bit challenging to figure out, especially incorporating SVGs, but once I got the gist of it, I found this whole project good practice for what I have learned so far. 
