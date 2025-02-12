@@ -38,8 +38,8 @@ html body {
 .user-icon {
     justify-self: start;
     place-self: center-stretch;
-    display: grid;
-    grid-template-columns: 50px 50px;
+     display: grid;
+    grid-template-columns: 50px 50px; 
 }
 .bell {
     justify-content: start;
@@ -48,6 +48,10 @@ html body {
 .user-info {
     place-self: center-stretch;
     
+}
+.search-bar {
+    display: flex;
+    gap: 10px;
 }
 
 .sidebar {
@@ -59,7 +63,7 @@ html body {
     /* make sidebar grid */
     display: grid;
     grid-template-rows: 50px repeat(5, 25px) 50px repeat(3, 25px); 
-    gap: 5px;
+    gap: 10px;
     /* padding: 12px; */
     box-sizing: border-box;
     padding-left: 20px;
@@ -116,12 +120,16 @@ html body {
     border-radius: 4px;
     box-shadow: 2px 2px 2px #bfbfbf;
     background-color: white;
-    padding: 10px;
+    padding: 15px;
     width: 250px;
     display: grid;
-    grid-template-rows: repeat(3. 1fr);
-
+    /* grid-template-rows: repeat(3, 50px); */
     gap: 8px;
+}
+
+h1 {
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .mini-cards {
@@ -145,7 +153,6 @@ h4{
     grid-template-rows: repeat(4, 1fr); */
     gap: 4px;
     padding: 5px;
-    /* height: auto; */
    display: grid;
    grid-template-rows: repeat(4, 65px);
 }
